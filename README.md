@@ -1,5 +1,4 @@
 # Hi, I'm Ayush 👋
-
 I'm a final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyond wrappers — deployed, real-world tools using LLMs, agents, and automation.
 
 ---
@@ -8,6 +7,9 @@ I'm a final-year B.Tech IT student at MITS Gwalior, building AI projects that go
 
 ### [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
 Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report. Built with FastAPI + LangGraph + Groq + Tavily.
+
+### [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
+Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back. Built with FastAPI + Faster-Whisper + Groq LLaMA + gTTS.
 
 ### [AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai) — [Live Demo](https://intellect-docs-ai.vercel.app)
 RAG-based document Q&A tool. Upload PDFs, ask questions, get cited answers with cosine similarity scores. Built with Next.js + Supabase pgvector + Cohere embeddings.
@@ -27,12 +29,10 @@ No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LL
 ---
 
 ## 🛠 Stack
-
-`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Next.js` `React` `Supabase` `PostgreSQL` `n8n` `Docker` `Render` `Vercel`
+`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Whisper` `Next.js` `React` `Supabase` `PostgreSQL` `n8n` `Docker` `Render` `Vercel`
 
 ---
 
 ## 📬 Connect
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ayushsinghtomar-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ayushsinghtomar)
 [![GitHub](https://img.shields.io/badge/GitHub-ayush--s--tomar-181717?style=flat&logo=github)](https://github.com/ayush-s-tomar)
