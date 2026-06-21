@@ -1,19 +1,23 @@
 # Hi, I'm Ayush 👋
 
+![Banner](./banner.svg)
+
 Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyond wrappers — deployed, real-world tools using LLMs, agents, and automation.
 
+🎓 B.Tech IT, MITS Gwalior (Final Year)
 🔭 Currently exploring multi-agent systems and RAG pipelines
+💼 Open to AI/Backend internships and freelance work
 📫 Reach me at [LinkedIn](https://linkedin.com/in/ayushsinghtomar)
 
 ---
 
 ## 🤖 Projects
 
-### [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
+### ⭐ [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
 Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
 `FastAPI` `LangGraph` `Groq` `Tavily`
 
-### [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
+### ⭐ [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
 Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back.
 `FastAPI` `Faster-Whisper` `Groq LLaMA` `gTTS`
 
@@ -45,7 +49,20 @@ Upload any CSV, ask questions in plain English, get instant charts and insights 
 
 ## 🛠 Stack
 
-`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Whisper` `Next.js` `React` `Supabase` `PostgreSQL` `n8n` `Docker` `Render` `Vercel`
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square)
+![CrewAI](https://img.shields.io/badge/-CrewAI-FF6F61?style=flat-square)
+![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square)
+![Whisper](https://img.shields.io/badge/-Whisper-412991?style=flat-square)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
