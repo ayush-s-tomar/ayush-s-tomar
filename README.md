@@ -49,12 +49,6 @@ Upload any CSV, ask questions in plain English, get instant charts and insights 
 
 ---
 
-## 📊 GitHub Stats
-
-![Ayush's GitHub stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=default)
-
----
-
 ## 📬 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ayushsinghtomar-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ayushsinghtomar)
