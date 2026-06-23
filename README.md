@@ -73,4 +73,3 @@ Multi-agent startup intelligence tool. A CrewAI crew of Researcher, Analyst, and
 ## 📬 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ayushsinghtomar-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ayushsinghtomar)
-[![GitHub](https://img.shields.io/badge/GitHub-ayush--s--tomar-181717?style=flat&logo=github)](https://github.com/ayush-s-tomar)
