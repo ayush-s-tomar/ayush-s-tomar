@@ -13,6 +13,10 @@ Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyon
 
 ## 🤖 Projects
 
+### ⭐ [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — [Live Demo](https://salesagent-theta.vercel.app)
+Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
+`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
+
 ### ⭐ [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
 Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
 `FastAPI` `LangGraph` `Groq` `Tavily`
