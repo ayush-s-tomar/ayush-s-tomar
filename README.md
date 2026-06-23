@@ -13,15 +13,15 @@ Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyon
 
 ## 🤖 Projects
 
-### ⭐ [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — [Live Demo](https://salesagent-theta.vercel.app)
-Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
-`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
+### [AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst) — [Live Demo](https://ai-data-analyst-six-sooty.vercel.app)
+Upload any CSV, ask questions in plain English, get instant charts and insights — powered by Groq's free Llama 3.3 70B.
+`FastAPI` `React` `Groq` `pandas` `matplotlib`
 
-### ⭐ [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
+### [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
 Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
 `FastAPI` `LangGraph` `Groq` `Tavily`
 
-### ⭐ [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
+### [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
 Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back.
 `FastAPI` `Faster-Whisper` `Groq LLaMA` `gTTS`
 
@@ -33,21 +33,21 @@ RAG-based document Q&A tool. Upload PDFs, ask questions, get cited answers with 
 AI agent that reads Gmail, classifies emails, drafts context-aware replies, and lets you approve or edit before sending.
 `FastAPI` `React` `LLaMA 3.3`
 
-### [StartupScope](https://github.com/ayush-s-tomar/startupscope) — [Live Demo](https://startupscope-ephq.onrender.com)
-Multi-agent startup intelligence tool. A CrewAI crew of Researcher, Analyst, and Writer agents that searches the web and generates structured startup reports.
-`CrewAI` `Groq` `SerperDev`
+### [n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack) — [Live Demo](https://ayush22.app.n8n.cloud)
+No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
+`n8n` `Groq` `Gmail` `Slack`
 
 ### [ResumeIQ](https://github.com/ayush-s-tomar/ResumeIQ) — [Live Demo](https://resumeiq-55h8.onrender.com)
 AI resume screener that scores ATS compatibility, identifies gaps, and exports detailed PDF reports.
 `Python` `Flask` `Groq`
 
-### [n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack) — [Live Demo](https://ayush22.app.n8n.cloud)
-No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
-`n8n` `Groq` `Gmail` `Slack`
+### [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — [Live Demo](https://salesagent-theta.vercel.app)
+Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
+`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
-### [AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst) — [Live Demo](https://ai-data-analyst-six-sooty.vercel.app)
-Upload any CSV, ask questions in plain English, get instant charts and insights — powered by Groq's free Llama 3.3 70B.
-`FastAPI` `React` `Groq` `pandas` `matplotlib`
+### [StartupScope](https://github.com/ayush-s-tomar/startupscope) — [Live Demo](https://startupscope-ephq.onrender.com)
+Multi-agent startup intelligence tool. A CrewAI crew of Researcher, Analyst, and Writer agents that searches the web and generates structured startup reports.
+`CrewAI` `Groq` `SerperDev`
 
 ---
 
