@@ -4,20 +4,26 @@ Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyon
 
 🎓 B.Tech IT, MITS Gwalior (Final Year)
 🔭 Currently exploring multi-agent systems and RAG pipelines
-💼 Open to AI/Backend internships and freelance work
+💼 Open to AI Developer roles
 📫 Reach me at [LinkedIn](https://linkedin.com/in/ayushsinghtomar)
+
+★ **Start here:** [SalesAgent](https://salesagent-theta.vercel.app) · [AgentLoop](https://agentloop.onrender.com) · [AI Data Analyst](https://ai-data-analyst-six-sooty.vercel.app)
 
 ---
 
 ## 🤖 Projects
 
+### [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
+Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
+`FastAPI` `LangGraph` `Groq` `Tavily`
+
 ### [AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst) — [Live Demo](https://ai-data-analyst-six-sooty.vercel.app)
 Upload any CSV, ask questions in plain English, get instant charts and insights — powered by Groq's free Llama 3.3 70B.
 `FastAPI` `React` `Groq` `pandas` `matplotlib`
 
-### [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — [Live Demo](https://agentloop.onrender.com)
-Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
-`FastAPI` `LangGraph` `Groq` `Tavily`
+### [AI Interview Coach](https://github.com/ayush-s-tomar/ai-interview-coach) — [Live Demo](https://ai-interview-coach-two-dusky.vercel.app)
+Real-time voice interview simulator that scores answers on relevance, clarity, and depth — generates a personalized PDF feedback report.
+`FastAPI` `React` `Faster-Whisper` `Groq` `ReportLab`
 
 ### [ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant) — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
 Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back.
