@@ -7,7 +7,7 @@ Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyon
 💼 Open to AI Developer roles
 📫 Reach me at [LinkedIn](https://linkedin.com/in/ayushsinghtomar)
 
-★ **Start here:** [SalesAgent](https://salesagent-theta.vercel.app) · [AgentLoop](https://agentloop.onrender.com) · [AI Data Analyst](https://ai-data-analyst-six-sooty.vercel.app)
+★ **Start here:** [SalesAgent](https://salesagent-theta.vercel.app) · [JobHunt](https://jobhunt-lonp.onrender.com) · [AgentLoop](https://agentloop.onrender.com) · [AI Data Analyst](https://ai-data-analyst-six-sooty.vercel.app)
 
 ---
 
@@ -36,6 +36,10 @@ RAG-based document Q&A tool. Upload PDFs, ask questions, get cited answers with 
 ### [Email Agent](https://github.com/ayush-s-tomar/Email-agent) — [Live Demo](https://email-agent-xi-drab.vercel.app)
 AI agent that reads Gmail, classifies emails, drafts context-aware replies, and lets you approve or edit before sending.
 `FastAPI` `React` `LLaMA 3.3`
+
+### [JobHunt](https://github.com/ayush-s-tomar/jobhunt) — [Live Demo](https://jobhunt-lonp.onrender.com)
+Multi-user Telegram job aggregator with AI scoring and auto-apply. Watches job channels, enriches every post with Groq AI (title, salary, match score), and applies via email or Playwright form-fill — one click.
+`FastAPI` `PostgreSQL` `Telethon` `Groq` `Playwright`
 
 ### [n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack) — [Live Demo](https://ayush22.app.n8n.cloud)
 No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
