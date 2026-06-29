@@ -75,4 +75,4 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/ayush-s-tomar/ayush-s-tomar/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/output/github-snake-dark.svg)
