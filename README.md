@@ -15,28 +15,32 @@ Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, sco
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
 **[AgentLoop](https://github.com/ayush-s-tomar/agentloop)** — [Live Demo](https://agentloop.onrender.com)
-Multi-step research agent with tool-use and memory. Plans sub-questions, calls live web search, reflects on gaps, loops back, then writes a sourced report.
+Not a chatbot. A multi-step research agent that breaks your question into sub-questions, searches the live web, reflects on gaps, loops back, and delivers a fully cited report.
 `FastAPI` `LangGraph` `Groq` `Tavily`
 
 **[AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai)** — [Live Demo](https://intellect-docs-ai.vercel.app)
-RAG-based document Q&A tool. Upload PDFs, ask questions, get cited answers with cosine similarity scores.
+RAG pipeline that answers questions over 50-page PDFs in under 3 seconds — with source citations and cosine similarity scores. No SQL, no code.
 `Next.js` `Supabase` `pgvector` `Cohere`
 
 **[AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst)** — [Live Demo](https://ai-data-analyst-six-sooty.vercel.app)
-Upload any CSV, ask questions in plain English, get instant charts and insights — powered by Groq's free Llama 3.3 70B.
+Upload any CSV, ask questions in plain English, get instant charts and insights. No SQL. No code. Powered by Groq's Llama 3.3 70B.
 `FastAPI` `React` `Groq` `pandas` `matplotlib`
 
 **[JobHunt](https://github.com/ayush-s-tomar/jobhunt)** — [Live Demo](https://jobhunt-demo.vercel.app)
-Multi-user Telegram job aggregator — AI scores every post and auto-applies via email or form-fill.
+Multi-user Telegram job aggregator — AI scores every post and auto-applies via email or form-fill. Watches job channels 24/7 so you don't have to.
 `FastAPI` `PostgreSQL` `Groq` `Playwright`
+
+**[Email Agent](https://github.com/ayush-s-tomar/Email-agent)** — [Live Demo](https://email-agent-xi-drab.vercel.app)
+AI agent that reads Gmail, classifies emails, drafts context-aware replies, and lets you approve or edit before sending.
+`FastAPI` `React` `LLaMA 3.3`
 
 **[ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant)** — [Live Demo](https://ayush-s-tomar.github.io/aria-voice-assistant)
 Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back.
 `FastAPI` `Faster-Whisper` `Groq` `LLaMA` `gTTS`
 
-**[Email Agent](https://github.com/ayush-s-tomar/Email-agent)** — [Live Demo](https://email-agent-xi-drab.vercel.app)
-AI agent that reads Gmail, classifies emails, drafts context-aware replies, and lets you approve or edit before sending.
-`FastAPI` `React` `LLaMA 3.3`
+**[StartupScope](https://github.com/ayush-s-tomar/startupscope)** — [Live Demo](https://startupscope-ephq.onrender.com)
+Multi-agent CrewAI crew — Researcher, Analyst, and Writer agents collaborate to search the web and generate structured startup intelligence reports.
+`CrewAI` `Groq` `SerperDev`
 
 **[n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack)** — [Live Demo](https://ayush22.app.n8n.cloud)
 No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
@@ -45,10 +49,6 @@ No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LL
 **[ResumeIQ](https://github.com/ayush-s-tomar/ResumeIQ)** — [Live Demo](https://resumeiq-55h8.onrender.com)
 AI resume screener that scores ATS compatibility, identifies gaps, and exports detailed PDF reports.
 `Python` `Flask` `Groq`
-
-**[StartupScope](https://github.com/ayush-s-tomar/startupscope)** — [Live Demo](https://startupscope-ephq.onrender.com)
-Multi-agent startup intelligence tool. A CrewAI crew of Researcher, Analyst, and Writer agents that searches the web and generates structured startup reports.
-`CrewAI` `Groq` `SerperDev`
 
 ---
 
@@ -70,3 +70,9 @@ Multi-agent startup intelligence tool. A CrewAI crew of Researcher, Analyst, and
 ## 📬 Connect
 
 [LinkedIn](https://linkedin.com/in/ayushsinghtomar) &nbsp;|&nbsp; [Dev.to](https://dev.to/ayushsinghtomar)
+
+---
+
+## 🐍 Contribution Snake
+
+![Snake animation](https://github.com/ayush-s-tomar/ayush-s-tomar/blob/output/github-contribution-grid-snake.svg)
