@@ -1,16 +1,37 @@
-# Hi, I'm Ayush 👋
+<div align="center">
+
+![Ayush Singh Tomar — AI Engineer](doc/banner.svg)
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Building+real+AI+tools%2C+not+wrappers.;Multi-agent+systems+%7C+RAG+pipelines;LLMs+%7C+FastAPI+%7C+LangGraph+%7C+Groq;Open+to+freelance+%26+full-time+roles." alt="Typing SVG" />
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=ayush-s-tomar&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
+[![Dev.to](https://img.shields.io/badge/Dev.to-Blog-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
 
 Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyond wrappers — deployed, real-world tools using LLMs, agents, and automation.
 
-🎓 B.Tech IT, MITS Gwalior (Final Year) &nbsp;|&nbsp; 🔭 Multi-agent systems & RAG pipelines &nbsp;|&nbsp; 💼 Open to AI Developer roles &nbsp;|&nbsp; 📫 [LinkedIn](https://linkedin.com/in/ayushsinghtomar) &nbsp;|&nbsp; ✍️ [Dev.to](https://dev.to/ayushsinghtomar)
-
-★ Start here: **SalesAgent · AgentLoop · AskMyDocs · AI Data Analyst**
+- 🎓 B.Tech IT, MITS Gwalior (Final Year)
+- 🔭 Specialising in multi-agent systems & RAG pipelines
+- 🤖 10 deployed AI projects — each solving a real problem
+- 💼 Open to AI Developer roles & freelance contracts
+- ⚡ Stack: Groq · LangGraph · FastAPI · React · Supabase · CrewAI
 
 ---
 
 ## 🤖 Projects
 
-**[SalesAgent](https://github.com/ayush-s-tomar/salesagent)** — [Live Demo](https://salesagent-theta.vercel.app) | [📝 Technical Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
+> ★ Start here: **SalesAgent · AgentLoop · AskMyDocs · AI Data Analyst**
+
+**[SalesAgent](https://github.com/ayush-s-tomar/salesagent)** — [Live Demo](https://salesagent-theta.vercel.app) | [📝 Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
@@ -60,19 +81,35 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ## 📊 GitHub Stats
 
-![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=dark)
+<div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=ayush-s-tomar&theme=dark)
+![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&rank_icon=github)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
----
+![GitHub Streak](https://streak-stats.demolab.com?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117&ring=6366f1&fire=6366f1&currStreakLabel=6366f1)
 
-## 📬 Connect
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=ayush-s-tomar&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=4)
 
-[LinkedIn](https://linkedin.com/in/ayushsinghtomar) &nbsp;|&nbsp; [Dev.to](https://dev.to/ayushsinghtomar)
+</div>
 
 ---
 
 ## 🐍 Contribution Snake
 
+<div align="center">
+
 ![Snake animation](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/output/github-snake-dark.svg)
+
+</div>
+
+---
+
+## 📬 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Singh_Tomar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
+[![Dev.to](https://img.shields.io/badge/Dev.to-@ayushsinghtomar-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
+
+</div>
