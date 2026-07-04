@@ -1,0 +1,116 @@
+<svg width="100%" viewBox="0 0 900 240" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Ayush Singh Tomar — AI Engineer</title>
+  <desc>GitHub profile banner for Ayush Singh Tomar, AI Engineer and Agent Builder</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#07090f"/>
+      <stop offset="100%" style="stop-color:#0f1225"/>
+    </linearGradient>
+    <radialGradient id="rg1" cx="72%" cy="50%" r="45%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.09"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="rg2" cx="10%" cy="80%" r="30%">
+      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="vbar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a5b4fc;stop-opacity:0"/>
+      <stop offset="25%" style="stop-color:#a5b4fc"/>
+      <stop offset="75%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="nameg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="60%" style="stop-color:#e0e7ff"/>
+      <stop offset="100%" style="stop-color:#a5b4fc"/>
+    </linearGradient>
+    <linearGradient id="bbar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#a5b4fc"/>
+      <stop offset="80%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="240" fill="url(#bg)"/>
+  <rect width="900" height="240" fill="url(#rg1)"/>
+  <rect width="900" height="240" fill="url(#rg2)"/>
+  <line x1="480" y1="50"  x2="890" y2="50"  stroke="#6366f1" stroke-width="0.6" opacity="0.28"/>
+  <line x1="520" y1="120" x2="890" y2="120" stroke="#6366f1" stroke-width="0.6" opacity="0.22"/>
+  <line x1="480" y1="190" x2="890" y2="190" stroke="#6366f1" stroke-width="0.6" opacity="0.28"/>
+  <line x1="540" y1="50" x2="540" y2="190" stroke="#6366f1" stroke-width="0.5" opacity="0.18"/>
+  <line x1="620" y1="50" x2="620" y2="190" stroke="#818cf8" stroke-width="0.5" opacity="0.16"/>
+  <line x1="700" y1="50" x2="700" y2="190" stroke="#6366f1" stroke-width="0.5" opacity="0.18"/>
+  <line x1="780" y1="50" x2="780" y2="190" stroke="#818cf8" stroke-width="0.5" opacity="0.16"/>
+  <line x1="860" y1="50" x2="860" y2="120" stroke="#6366f1" stroke-width="0.5" opacity="0.15"/>
+  <polyline points="480,50 500,50 500,20 590,20 590,50"   fill="none" stroke="#818cf8" stroke-width="0.6" opacity="0.22"/>
+  <polyline points="620,120 650,120 650,90 720,90 720,50" fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
+  <polyline points="700,190 720,190 720,215 820,215 820,190" fill="none" stroke="#818cf8" stroke-width="0.5" opacity="0.18"/>
+  <polyline points="780,120 810,120 810,155 860,155 860,190" fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.17"/>
+  <polyline points="540,190 520,190 520,215 610,215" fill="none" stroke="#6366f1" stroke-width="0.4" opacity="0.15"/>
+  <rect x="553" y="40" width="40" height="20" rx="2" fill="none" stroke="#6366f1" stroke-width="0.8" opacity="0.4"/>
+  <line x1="560" y1="40" x2="560" y2="60" stroke="#6366f1" stroke-width="0.5" opacity="0.3"/>
+  <line x1="567" y1="40" x2="567" y2="60" stroke="#6366f1" stroke-width="0.5" opacity="0.3"/>
+  <line x1="574" y1="40" x2="574" y2="60" stroke="#6366f1" stroke-width="0.5" opacity="0.3"/>
+  <line x1="581" y1="40" x2="581" y2="60" stroke="#6366f1" stroke-width="0.5" opacity="0.3"/>
+  <line x1="588" y1="40" x2="588" y2="60" stroke="#6366f1" stroke-width="0.5" opacity="0.3"/>
+  <rect x="713" y="110" width="44" height="20" rx="2" fill="none" stroke="#818cf8" stroke-width="0.8" opacity="0.35"/>
+  <line x1="720" y1="110" x2="720" y2="130" stroke="#818cf8" stroke-width="0.5" opacity="0.25"/>
+  <line x1="727" y1="110" x2="727" y2="130" stroke="#818cf8" stroke-width="0.5" opacity="0.25"/>
+  <line x1="734" y1="110" x2="734" y2="130" stroke="#818cf8" stroke-width="0.5" opacity="0.25"/>
+  <line x1="741" y1="110" x2="741" y2="130" stroke="#818cf8" stroke-width="0.5" opacity="0.25"/>
+  <line x1="748" y1="110" x2="748" y2="130" stroke="#818cf8" stroke-width="0.5" opacity="0.25"/>
+  <rect x="793" y="180" width="36" height="20" rx="2" fill="none" stroke="#6366f1" stroke-width="0.8" opacity="0.32"/>
+  <line x1="800" y1="180" x2="800" y2="200" stroke="#6366f1" stroke-width="0.5" opacity="0.22"/>
+  <line x1="807" y1="180" x2="807" y2="200" stroke="#6366f1" stroke-width="0.5" opacity="0.22"/>
+  <line x1="814" y1="180" x2="814" y2="200" stroke="#6366f1" stroke-width="0.5" opacity="0.22"/>
+  <line x1="821" y1="180" x2="821" y2="200" stroke="#6366f1" stroke-width="0.5" opacity="0.22"/>
+  <circle cx="540" cy="50"  r="3.5" fill="#6366f1" opacity="0.6"/>
+  <circle cx="620" cy="50"  r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="700" cy="50"  r="3.5" fill="#6366f1" opacity="0.55"/>
+  <circle cx="780" cy="50"  r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="540" cy="120" r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="620" cy="120" r="3.5" fill="#6366f1" opacity="0.6"/>
+  <circle cx="700" cy="120" r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="780" cy="120" r="3.5" fill="#6366f1" opacity="0.55"/>
+  <circle cx="860" cy="120" r="3"   fill="#818cf8" opacity="0.45"/>
+  <circle cx="540" cy="190" r="3.5" fill="#6366f1" opacity="0.55"/>
+  <circle cx="620" cy="190" r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="700" cy="190" r="3.5" fill="#6366f1" opacity="0.6"/>
+  <circle cx="780" cy="190" r="3"   fill="#818cf8" opacity="0.5"/>
+  <circle cx="540" cy="50"  r="6" fill="none" stroke="#6366f1" stroke-width="0.7" opacity="0.25"/>
+  <circle cx="700" cy="120" r="6" fill="none" stroke="#818cf8" stroke-width="0.7" opacity="0.22"/>
+  <circle cx="620" cy="190" r="6" fill="none" stroke="#6366f1" stroke-width="0.7" opacity="0.22"/>
+  <circle cx="590" cy="20"  r="2" fill="#818cf8" opacity="0.4"/>
+  <circle cx="500" cy="20"  r="1.5" fill="#6366f1" opacity="0.35"/>
+  <circle cx="650" cy="90"  r="2" fill="#6366f1" opacity="0.38"/>
+  <circle cx="720" cy="90"  r="1.5" fill="#818cf8" opacity="0.35"/>
+  <circle cx="720" cy="215" r="2" fill="#818cf8" opacity="0.32"/>
+  <circle cx="820" cy="215" r="1.5" fill="#6366f1" opacity="0.3"/>
+  <circle cx="610" cy="215" r="1.5" fill="#6366f1" opacity="0.25"/>
+  <circle cx="860" cy="155" r="1.5" fill="#818cf8" opacity="0.3"/>
+  <rect x="52" y="38" width="3.5" height="164" rx="1.75" fill="url(#vbar)"/>
+  <rect x="68" y="40" width="116" height="20" rx="10" fill="#10b981" opacity="0.15" stroke="#10b981" stroke-width="0.8"/>
+  <circle cx="82" cy="50" r="3.5" fill="#10b981" opacity="0.9"/>
+  <text x="92" y="54.5" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" fill="#34d399" letter-spacing="1.2">OPEN TO WORK</text>
+  <text x="68" y="118" font-family="'Segoe UI Black', 'Arial Black', sans-serif" font-size="48" font-weight="900" fill="url(#nameg)" letter-spacing="-2">Ayush Singh Tomar</text>
+  <rect x="68" y="126" width="360" height="1.5" rx="0.75" fill="#6366f1" opacity="0.4"/>
+  <text x="70" y="152" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#818cf8" letter-spacing="2.5" opacity="0.95">AI ENGINEER  ·  AGENT BUILDER  ·  LLM SYSTEMS</text>
+  <rect x="68"  y="170" width="58" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="97"  y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">Python</text>
+  <rect x="134" y="170" width="58" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="163" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">FastAPI</text>
+  <rect x="200" y="170" width="72" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="236" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">LangGraph</text>
+  <rect x="280" y="170" width="50" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="305" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">Groq</text>
+  <rect x="338" y="170" width="50" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="363" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">React</text>
+  <rect x="396" y="170" width="56" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="424" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">CrewAI</text>
+  <rect x="460" y="170" width="68" height="20" rx="10" fill="#6366f1" opacity="0.18" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="494" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="500">Supabase</text>
+  <text x="70" y="215" font-family="'Segoe UI', monospace, sans-serif" font-size="10" fill="#4f46e5" opacity="0.7" letter-spacing="0.5">github.com/ayush-s-tomar</text>
+  <rect x="0" y="236" width="900" height="4" fill="url(#bbar)"/>
+</svg>
