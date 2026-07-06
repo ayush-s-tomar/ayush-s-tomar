@@ -92,7 +92,7 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 <div align="center">
 
-![Ayush's GitHub Stats](https://github-stats-extended.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&rank_icon=github)
+![Ayush's GitHub Stats](https://github-stats-extended.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&rank_icon=github&hide=prs,issues,stars,contribs)
 ![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
 ![GitHub Streak](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/main/profile/streak.svg)
@@ -113,12 +113,6 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ---
 
-## 📬 Connect
+## 📬 Let's Build Something
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Singh_Tomar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
-[![Dev.to](https://img.shields.io/badge/Dev.to-@ayushsinghtomar-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
-[![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
-
-</div>
+Open to AI Developer roles and freelance contracts — reach out on [LinkedIn](https://linkedin.com/in/ayushsinghtomar), read more on [Dev.to](https://dev.to/ayushsinghtomar), or [hire me on Upwork](https://www.upwork.com/freelancers/ayushtomar).
