@@ -95,7 +95,7 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 ![Ayush's GitHub Stats](https://github-stats-extended.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&rank_icon=github)
 ![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117&ring=6366f1&fire=6366f1&currStreakLabel=6366f1)
+![GitHub Streak](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/main/profile/streak.svg)
 
 ![GitHub Trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=ayush-s-tomar&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=4)
 
