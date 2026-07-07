@@ -6,7 +6,6 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ayush-s-tomar&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
 [![Dev.to](https://img.shields.io/badge/Dev.to-Blog-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
 [![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
@@ -92,12 +91,10 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 <div align="center">
 
-![Ayush's GitHub Stats](https://github-stats-extended.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&rank_icon=github&hide=prs,issues,stars,contribs)
-![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
+![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
 ![GitHub Streak](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/main/profile/streak.svg)
-
-![GitHub Trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=ayush-s-tomar&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=4)
 
 </div>
 
