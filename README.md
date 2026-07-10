@@ -20,7 +20,7 @@ Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyon
 
 - 🎓 B.Tech IT, MITS Gwalior (Final Year)
 - 🔭 Specialising in multi-agent systems & RAG pipelines
-- 🤖 10 deployed AI projects — each solving a real problem
+- 🤖 11 deployed AI projects — each solving a real problem
 - 💼 Open to AI Developer roles & freelance contracts
 - ⚡ Stack: Groq · LangGraph · FastAPI · React · Supabase · CrewAI
 
@@ -41,6 +41,10 @@ Not a chatbot. A multi-step research agent that breaks your question into sub-qu
 **[AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai)** — [Live Demo](https://intellect-docs-ai.vercel.app)
 RAG pipeline that answers questions over 50-page PDFs in under 3 seconds — with source citations and cosine similarity scores. No SQL, no code.
 `Next.js` `Supabase` `pgvector` `Cohere`
+
+**[Agentic RAG Research Assistant](https://github.com/ayush-s-tomar/agentic-rag-research-assistant)** — [Live Demo](https://agentic-rag-groq.streamlit.app) | [API Docs](https://agentic-rag-research-assistant-jjch.onrender.com/docs)
+Agentic RAG system with LangGraph tool-routing: retrieves grounded answers from uploaded PDFs via a Chroma vector store, refuses out-of-scope questions instead of guessing, and routes queries between a cheap and large model based on complexity.
+`LangGraph` `FastAPI` `Streamlit` `Chroma` `Groq`
 
 **[AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst)** — [Live Demo](https://ai-data-analyst-six-sooty.vercel.app)
 Upload any CSV, ask questions in plain English, get instant charts and insights. No SQL. No code. Powered by Groq's Llama 3.3 70B.
@@ -74,7 +78,7 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ## 🛠 Stack
 
-`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Whisper` `Next.js` `React` `Supabase` `PostgreSQL` `n8n` `Docker` `Render` `Vercel`
+`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Whisper` `Next.js` `React` `Supabase` `PostgreSQL` `Chroma` `n8n` `Docker` `Render` `Vercel`
 
 ---
 
