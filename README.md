@@ -16,23 +16,35 @@
 
 ## 👨‍💻 About Me
 
-Final-year B.Tech IT student at MITS Gwalior, building AI projects that go beyond wrappers — deployed, real-world tools using LLMs, agents, and automation.
+Final-year B.Tech IT student at MITS Gwalior, building deployed AI systems that go beyond API wrappers — multi-agent pipelines, RAG systems, a protocol-compliant MCP server, and a LoRA fine-tuned model published on Hugging Face.
 
-- 🎓 B.Tech IT, MITS Gwalior (Final Year)
-- 🔭 Specialising in multi-agent systems & RAG pipelines
-- 🤖 11 deployed AI projects — each solving a real problem
+- 🎓 B.Tech IT, MITS Gwalior (Final Year) · CGPA 7.87
+- 🔭 Specialising in multi-agent systems, RAG pipelines & LLM infrastructure
+- 🤖 10 self-shipped, deployed AI projects — each solving a real problem
+- 🏆 NPTEL (IIT Kanpur) Elite + Top 5%, Cloud Computing & Distributed Systems
 - 💼 Open to AI Developer roles & freelance contracts
-- ⚡ Stack: Groq · LangGraph · FastAPI · React · Supabase · CrewAI
 
 ---
 
 ## 🤖 Projects
 
-> ★ Start here: **SalesAgent · AgentLoop · AskMyDocs · AI Data Analyst**
+> ★ Start here: **SalesAgent · Portfolio MCP Server · LLM Cost Router · AgentLoop**
 
 **[SalesAgent](https://github.com/ayush-s-tomar/salesagent)** — [Live Demo](https://salesagent-theta.vercel.app) | [📝 Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
+
+**Portfolio MCP Server**
+A working MCP server exposing five tools (project search, stack filtering, resume summary) so any MCP client queries this portfolio as live structured data instead of a static page. Implements real client-side permission gating and tool-call routing — a protocol-compliant server, not a wrapper.
+`Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
+
+**LLM Cost Router**
+A heuristic query-complexity classifier that routes requests between a cheap and an 11x-more-expensive Groq model, cutting cost ~90% on simple queries with no quality loss on complex ones. Includes a live dashboard tracking real spend vs. a same-model baseline.
+`FastAPI` `Groq (Llama 3.1 8B / 3.3 70B)` `Vanilla JS`
+
+**LoRA Fine-Tuned Resume Screener** — [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
+Fine-tuned a LoRA adapter on Qwen2.5-0.5B to classify resume-job fit — moving beyond prompt-engineered API calls into parameter-efficient model training on custom labeled data. Published for reproducible, framework-agnostic inference.
+`Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
 
 **[AgentLoop](https://github.com/ayush-s-tomar/agentloop)** — [Live Demo](https://agentloop.onrender.com)
 Not a chatbot. A multi-step research agent that breaks your question into sub-questions, searches the live web, reflects on gaps, loops back, and delivers a fully cited report.
@@ -76,9 +88,17 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ---
 
+## 🏆 Achievements
+
+- Built **KrishiDrishti AI**, a satellite-based Digital Crop Twin for crop monitoring, at an ISRO-affiliated hackathon (externally judged).
+- **Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur), Elite + Top 5% Topper, 90% (Jan–Mar 2026).
+- Completed a 10-day ML workshop at MITS (Dec 2024) on imbalanced learning and classification techniques.
+
+---
+
 ## 🛠 Stack
 
-`Python` `FastAPI` `LangGraph` `CrewAI` `Groq` `Whisper` `Next.js` `React` `Supabase` `PostgreSQL` `Chroma` `n8n` `Docker` `Render` `Vercel`
+`Python` `JavaScript/TypeScript` `FastAPI` `Flask` `LangGraph` `CrewAI` `MCP` `Groq` `LLaMA 3.3` `LoRA/PEFT` `PyTorch` `Whisper` `React` `Next.js` `Supabase` `PostgreSQL` `Chroma` `n8n` `Docker` `Git` `Render` `Vercel`
 
 ---
 
@@ -98,7 +118,7 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 ![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
-![GitHub Streak](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/main/profile/streak.svg)
+![GitHub Streak](https://streak-stats.demolab.com/?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117)
 
 </div>
 
