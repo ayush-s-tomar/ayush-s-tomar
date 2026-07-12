@@ -90,9 +90,7 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ## 🏆 Achievements
 
-- Built **KrishiDrishti AI**, a satellite-based Digital Crop Twin for crop monitoring, at an ISRO-affiliated hackathon (externally judged).
 - **Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur), Elite + Top 5% Topper, 90% (Jan–Mar 2026).
-- Completed a 10-day ML workshop at MITS (Dec 2024) on imbalanced learning and classification techniques.
 
 ---
 
