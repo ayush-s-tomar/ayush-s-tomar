@@ -100,16 +100,6 @@ AI resume screener that scores ATS compatibility, identifies gaps, and exports d
 
 ---
 
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Two Bugs That Almost Shipped in My Agentic RAG Assistant](https://dev.to/ayushsinghtomar/two-bugs-that-almost-shipped-in-my-agentic-rag-assistant-2fm0)
-- [I Got Tired of My Portfolio Looking Like a List of Links. So I Built an MCP Server for It.](https://dev.to/ayushsinghtomar/i-got-tired-of-my-portfolio-looking-like-a-list-of-links-so-i-built-an-mcp-server-for-it-440o)
-- [I Got Tired of Writing Cold Emails. So I Built an AI Agent to Do It for Me.](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
-<!-- BLOG-POST-LIST:END -->
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
