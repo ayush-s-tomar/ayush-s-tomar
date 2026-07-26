@@ -22,13 +22,15 @@ Final-year B.Tech IT student at MITS Gwalior, building deployed AI systems that 
 - 🔭 Specialising in multi-agent systems, RAG pipelines & LLM infrastructure
 - 🚀 Live, deployed systems — not localhost demos: agents, RAG pipelines, a fine-tuned model on Hugging Face, and a protocol-compliant MCP server
 - 🏆 NPTEL (IIT Kanpur) Elite + Top 5%, Cloud Computing & Distributed Systems
+<<<<<<< HEAD
 - 💼 Freelance AI Developer (Upwork) · 5.0/5.0 client rating · Open to full-time AI Developer roles
+=======
+- 💼 Freelance AI Developer on Upwork · Open to full-time AI Developer roles
+>>>>>>> 22f1a11 (Polish profile README and banner: fix truncated CTA, remove dead redeploy links, trim redundant messaging)
 
 ---
 
 ## 🤖 Projects
-
-> ★ Start here: **SalesAgent · Portfolio MCP Server · LLM Cost Router · AgentLoop**
 
 **[SalesAgent](https://github.com/ayush-s-tomar/salesagent)** — [Live Demo](https://salesagent-ai.streamlit.app/) | [📝 Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 Autonomous B2B sales agent. Paste a LinkedIn URL — it researches the lead, scores them with ML (84/100), and drafts a hyper-personalized cold email referencing real company events. In 45 seconds.
@@ -130,6 +132,7 @@ No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LL
 
 ---
 
+<<<<<<< HEAD
 ## 💼 Freelance Experience
 
 **Freelance AI Developer** — Self-Employed, Remote · *May 2026 – Present*
@@ -144,6 +147,18 @@ Delivered a chatbot contract end-to-end in 3 days. Client rated **5.0/5.0**.
 
 - **Freelance client rating** — 5.0/5.0 on Upwork, 3-day turnaround on a full chatbot contract.
 - **Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur), Elite + Top 5% Topper, 90% (Jan–Mar 2026).
+=======
+## 💼 Experience & Achievements
+
+**Freelance AI Developer** — Self-Employed, Remote · *May 2026 – Present*
+Design and ship deployed AI systems end-to-end for clients — agentic workflows, RAG pipelines, LLM tooling.
+
+**AI Chatbot Developer — Upwork Talent Accelerator** · *Jun 2026*
+Delivered a chatbot contract end-to-end in 3 days. Client rated **5.0/5.0**.
+
+**Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur)
+Elite + Top 5% Topper, 90% (Jan–Mar 2026).
+>>>>>>> 22f1a11 (Polish profile README and banner: fix truncated CTA, remove dead redeploy links, trim redundant messaging)
 
 ---
 
@@ -178,4 +193,8 @@ Delivered a chatbot contract end-to-end in 3 days. Client rated **5.0/5.0**.
 
 ## 📬 Let's Build Something
 
+<<<<<<< HEAD
 Open to AI Developer roles and freelance contracts — reach out on [LinkedIn](https://linkedin.com/in/ayushsinghtomar), read more on [Dev.to](https://dev.to/ayushsinghtomar), or [hire me on Upwork](https://www.upwork.com/freelancers/ayushtomar).
+=======
+Have a problem worth an agent, a RAG pipeline, or an LLM integration? Reach out on [LinkedIn](https://linkedin.com/in/ayushsinghtomar), read the build logs on [Dev.to](https://dev.to/ayushsinghtomar), or [start a contract on Upwork](https://www.upwork.com/freelancers/ayushtomar).
+>>>>>>> 22f1a11 (Polish profile README and banner: fix truncated CTA, remove dead redeploy links, trim redundant messaging)
