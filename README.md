@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 ![Ayush Singh Tomar — AI Engineer](doc/banner.svg)
 
@@ -167,6 +167,13 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 ![Snake animation](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/output/github-snake-dark.svg)
 
 </div>
+
+---
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
