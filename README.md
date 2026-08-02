@@ -210,7 +210,17 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 ![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117)
+</div>
+
+---
+
+## 🔥 Contribution Activity
+
+<div align="center">
+
+<!-- self-hosted, animated on load, refreshed daily by .github/workflows/update-heatmap.yml -->
+<!-- generated from public https://github.com/users/ayush-s-tomar/contributions HTML — no token required -->
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
 
 </div>
 
