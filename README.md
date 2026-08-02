@@ -4,7 +4,7 @@
 
 ### AI Agent & RAG Developer — LangGraph · FastAPI · Live Deployed
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Building+real+AI+systems%2C+not+wrappers.;Multi-agent+orchestration+%7C+RAG+with+citations;LangGraph+%7C+FastAPI+%7C+Groq+%7C+MCP;Open+to+full-time+AI+Developer+roles." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Building+real+AI+systems%2C+not+wrappers.;RAG+with+citations+%7C+Multi-agent+orchestration;LangGraph+%7C+FastAPI+%7C+Groq+%7C+MCP;Open+to+full-time+AI+Developer+roles." alt="Typing SVG" />
 
 <br/>
 
@@ -17,7 +17,6 @@
 
 <table>
 <tr>
-<td align="center"><b>9+</b><br/><sub>Deployed AI systems</sub></td>
 <td align="center"><b>1</b><br/><sub>Model published on Hugging Face</sub></td>
 <td align="center"><b>5.0★</b><br/><sub>Freelance client rating</sub></td>
 <td align="center"><b>Top 5%</b><br/><sub>NPTEL, IIT Kanpur</sub></td>
@@ -30,10 +29,10 @@
 
 ## 👨‍💻 About Me
 
-Final-year B.Tech IT student building AI systems that **ship** — not tutorials, not localhost demos. Five live, deployed projects prove five distinct capabilities: multi-agent orchestration, RAG with real citations and eval harnesses, model fine-tuning, protocol-compliant tool serving (MCP), and voice AI.
+Final-year B.Tech IT student building AI systems that **ship** — not tutorials, not localhost demos. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
 
 - 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027) · CGPA 7.87
-- 🔭 Specializing in multi-agent systems, RAG pipelines & LLM infrastructure
+- 🔭 Specializing in RAG pipelines, multi-agent systems & LLM infrastructure
 - 🚀 Everything below is deployed — architecture, backend, frontend, and CI, live on Render / Vercel / Streamlit
 - 🏆 NPTEL (IIT Kanpur) — Elite, Top 5%, Cloud Computing & Distributed Systems (90%)
 - 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating) · Open to full-time AI Developer roles
@@ -46,33 +45,7 @@ Final-year B.Tech IT student building AI systems that **ship** — not tutorials
 <tr>
 <td width="70%">
 
-### 1. [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — Autonomous B2B Sales Agent
-[Live Demo](https://salesagent-ai.streamlit.app/) · [Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
-
-Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead (84/100), and Groq drafts a hyper-personalized cold email referencing actual company events. End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
-
-`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
-
-</td>
-<td width="30%"><b>9.3 / 10</b><br/><sub>Full agentic loop + ML scoring + a real eval harness that caught real bugs — the most complete system here.</sub></td>
-</tr>
-<tr>
-<td>
-
-### 2. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
-[Live Demo](https://agentloop.streamlit.app/)
-
-Not a chatbot — a research agent that decomposes a question into sub-questions, searches the live web, reflects on gaps in its own notes, loops back, and delivers a fully cited report. Two-tier memory (short-term run state + long-term SQLite recall) streams live trace events to the UI as it reasons.
-
-`FastAPI` `LangGraph` `Groq` `SQLite` `Tavily`
-
-</td>
-<td><b>9.0 / 10</b><br/><sub>Genuine plan → act → reflect → loop architecture with visible reasoning traces — rare at this stage.</sub></td>
-</tr>
-<tr>
-<td>
-
-### 3. [AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai) — RAG Document Q&A
+### 1. [AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai) — RAG Document Q&A
 [Live Demo](https://intellect-docs-ai.vercel.app/)
 
 Answers questions over 50-page PDFs in under 3 seconds, returning the exact source chunk and cosine similarity score behind every answer — and withholds an answer instead of hallucinating when the document doesn't cover it. Ships with an LLM-as-judge + keyword-validation eval pipeline wired into CI to catch retrieval regressions before deploy.
@@ -80,7 +53,33 @@ Answers questions over 50-page PDFs in under 3 seconds, returning the exact sour
 `Next.js` `Supabase (pgvector)` `Cohere` `Groq`
 
 </td>
-<td><b>8.8 / 10</b><br/><sub>Grounded citations plus CI-gated eval is the detail that separates this from a weekend RAG demo.</sub></td>
+<td width="30%"><sub><i>Grounded citations plus CI-gated eval is the detail that separates this from a weekend RAG demo.</i></sub></td>
+</tr>
+<tr>
+<td>
+
+### 2. [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — Autonomous B2B Sales Agent
+[Live Demo](https://salesagent-ai.streamlit.app/) · [Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
+
+Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead (84/100), and Groq drafts a hyper-personalized cold email referencing actual company events. End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
+
+`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
+
+</td>
+<td><sub><i>Full agentic loop + ML scoring + a real eval harness that caught real bugs — the most complete system here.</i></sub></td>
+</tr>
+<tr>
+<td>
+
+### 3. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
+[Live Demo](https://agentloop.streamlit.app/)
+
+Not a chatbot — a research agent that decomposes a question into sub-questions, searches the live web, reflects on gaps in its own notes, loops back, and delivers a fully cited report. Two-tier memory (short-term run state + long-term SQLite recall) streams live trace events to the UI as it reasons.
+
+`FastAPI` `LangGraph` `Groq` `SQLite` `Tavily`
+
+</td>
+<td><sub><i>Genuine plan → act → reflect → loop architecture with visible reasoning traces — rare at this stage.</i></sub></td>
 </tr>
 <tr>
 <td>
@@ -93,7 +92,7 @@ Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.
 `Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
 
 </td>
-<td><b>8.7 / 10</b><br/><sub>The only project here that touches training, not just inference — and it's published, reproducible work.</sub></td>
+<td><sub><i>The only project here that touches training, not just inference — and it's published, reproducible work.</i></sub></td>
 </tr>
 <tr>
 <td>
@@ -106,7 +105,7 @@ A working MCP server exposing 5 tools — project search, stack filtering, resum
 `Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
 
 </td>
-<td><b>8.5 / 10</b><br/><sub>Niche by design, but it's real protocol work — most portfolios don't have anything like it.</sub></td>
+<td><sub><i>Niche by design, but it's real protocol work — most portfolios don't have anything like it.</i></sub></td>
 </tr>
 </table>
 
@@ -210,17 +209,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 ![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
 
-</div>
-
----
-
-## 🔥 Contribution Activity
-
-<div align="center">
-
-<!-- self-hosted, animated on load, refreshed daily by .github/workflows/update-heatmap.yml -->
-<!-- generated from public https://github.com/users/ayush-s-tomar/contributions HTML — no token required -->
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+![GitHub Streak](https://streak-stats.demolab.com/?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117)
 
 </div>
 
