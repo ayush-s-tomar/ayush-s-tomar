@@ -4,7 +4,7 @@
 
 ### AI Agent & RAG Developer — LangGraph · FastAPI · Live Deployed
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Building+real+AI+systems%2C+not+wrappers.;RAG+with+citations+%7C+Multi-agent+orchestration;LangGraph+%7C+FastAPI+%7C+Groq+%7C+MCP;Open+to+full-time+AI+Developer+roles." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Shipping+deployed+AI+systems%2C+end+to+end.;RAG+with+citations+%7C+Multi-agent+orchestration;LangGraph+%7C+FastAPI+%7C+Groq+%7C+MCP;Open+to+full-time+AI+Developer+roles." alt="Typing SVG" />
 
 <br/>
 
@@ -17,9 +17,9 @@
 
 <table>
 <tr>
-<td align="center"><b>1</b><br/><sub>Model published on Hugging Face</sub></td>
+<td align="center"><b>9+</b><br/><sub>Deployed AI systems, solo</sub></td>
 <td align="center"><b>5.0★</b><br/><sub>Freelance client rating</sub></td>
-<td align="center"><b>Top 5%</b><br/><sub>NPTEL, IIT Kanpur</sub></td>
+<td align="center"><b>1</b><br/><sub>Model published on Hugging Face</sub></td>
 </tr>
 </table>
 
@@ -27,19 +27,19 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Final-year B.Tech IT student building AI systems that **ship** — not tutorials, not localhost demos. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
 
-- 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027) · CGPA 7.87
+- 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027)
 - 🔭 Specializing in RAG pipelines, multi-agent systems & LLM infrastructure
-- 🚀 Everything below is deployed — architecture, backend, frontend, and CI, live on Render / Vercel / Streamlit
+- 🚀 Every project below is live — architecture, backend, frontend, and CI, deployed on Render / Vercel / Streamlit
 - 🏆 NPTEL (IIT Kanpur) — Elite, Top 5%, Cloud Computing & Distributed Systems (90%)
 - 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating) · Open to full-time AI Developer roles
 
 ---
 
-## 🏆 Top 5 Projects
+## Top 5 Projects
 
 <table>
 <tr>
@@ -53,7 +53,7 @@ Answers questions over 50-page PDFs in under 3 seconds, returning the exact sour
 `Next.js` `Supabase (pgvector)` `Cohere` `Groq`
 
 </td>
-<td width="30%"><sub><i>Grounded citations plus CI-gated eval is the detail that separates this from a weekend RAG demo.</i></sub></td>
+<td width="30%"><sub>CI-gated retrieval eval, not just a demo.</sub></td>
 </tr>
 <tr>
 <td>
@@ -66,7 +66,7 @@ Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random F
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
 </td>
-<td><sub><i>Full agentic loop + ML scoring + a real eval harness that caught real bugs — the most complete system here.</i></sub></td>
+<td><sub>Full agentic loop + ML scoring + eval harness.</sub></td>
 </tr>
 <tr>
 <td>
@@ -79,7 +79,7 @@ Not a chatbot — a research agent that decomposes a question into sub-questions
 `FastAPI` `LangGraph` `Groq` `SQLite` `Tavily`
 
 </td>
-<td><sub><i>Genuine plan → act → reflect → loop architecture with visible reasoning traces — rare at this stage.</i></sub></td>
+<td><sub>Plan → act → reflect → loop, with visible reasoning traces.</sub></td>
 </tr>
 <tr>
 <td>
@@ -92,7 +92,7 @@ Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.
 `Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
 
 </td>
-<td><sub><i>The only project here that touches training, not just inference — and it's published, reproducible work.</i></sub></td>
+<td><sub>Training work, not just inference — and published.</sub></td>
 </tr>
 <tr>
 <td>
@@ -105,7 +105,7 @@ A working MCP server exposing 5 tools — project search, stack filtering, resum
 `Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
 
 </td>
-<td><sub><i>Niche by design, but it's real protocol work — most portfolios don't have anything like it.</i></sub></td>
+<td><sub>Real protocol work, not an API wrapper.</sub></td>
 </tr>
 </table>
 
@@ -120,7 +120,7 @@ Heuristic query-complexity classifier that routes requests between a cheap and a
 `FastAPI` `Groq (Llama 3.1 8B / 3.3 70B)` `Streamlit`
 
 **[Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag)** — [Live Demo](https://rag-critic-loop.streamlit.app/)
-RAG pipeline that critiques its own answers — if a response isn't grounded in the retrieved documents, it reformulates the query and retries instead of hallucinating.
+RAG pipeline that critiques its own answers — if a response isn't grounded in the retrieved documents, it reformulates the query and retries.
 `LangGraph` `Chroma` `Groq` `Streamlit`
 
 **[AI Interview Coach](https://github.com/ayush-s-tomar/ai-interview-coach)** — [Live Demo](https://mockinterview-ai.streamlit.app/)
@@ -128,7 +128,7 @@ Real-time voice interview simulator — answers scored on relevance, clarity, te
 `Streamlit` `Faster-Whisper` `Groq` `PDF Generation`
 
 **[Agentic RAG Research Assistant](https://github.com/ayush-s-tomar/agentic-rag-research-assistant)** — [Live Demo](https://agentic-rag-groq.streamlit.app/) | [API Docs](https://agentic-rag-research-assistant-jjch.onrender.com/docs)
-LangGraph tool-routing RAG system — retrieves grounded answers from uploaded PDFs via Chroma, refuses out-of-scope questions instead of guessing, and routes queries between a cheap and large model based on complexity.
+LangGraph tool-routing RAG system — retrieves grounded answers from uploaded PDFs via Chroma, declines out-of-scope questions, and routes queries between a cheap and large model based on complexity.
 `LangGraph` `FastAPI` `Streamlit` `Chroma` `Groq`
 
 **[AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst)** — [Live Demo](https://askthedata-ai.streamlit.app/)
@@ -173,7 +173,7 @@ No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LL
 
 ---
 
-## 💼 Experience & Achievements
+## Experience & Achievements
 
 **Freelance AI Developer** — Self-Employed, Remote · *May 2026 – Present*
 Design and ship deployed AI systems end-to-end for clients — agentic workflows, RAG pipelines, LLM tooling.
@@ -186,7 +186,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 ---
 
-## 🛠 Stack
+## Stack
 
 **Core — used across most projects**
 `Python` `LangGraph` `FastAPI` `Groq` `LLaMA 3.3` `Streamlit` `Git`
@@ -202,7 +202,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -213,10 +213,6 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 </div>
 
----
-
-## 🐍 Contribution Snake
-
 <div align="center">
 
 ![Snake animation](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/output/github-snake-dark.svg)
@@ -225,7 +221,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 ---
 
-## 📝 Latest Blog Posts
+## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - [My LLM App Was Charging Rent-Controlled Tenants Penthouse Prices — So I Built a Router to Fix It](https://dev.to/ayushsinghtomar/my-llm-app-was-charging-rent-controlled-tenants-penthouse-prices-so-i-built-a-router-to-fix-it-38cl)
@@ -238,7 +234,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 <div align="center">
 
-### 📬 Let's Build Something
+### Let's Build Something
 
 Have a problem worth an agent, a RAG pipeline, or an LLM integration? Reach out on [LinkedIn](https://linkedin.com/in/ayushsinghtomar), read the build logs on [Dev.to](https://dev.to/ayushsinghtomar), or [start a contract on Upwork](https://www.upwork.com/freelancers/ayushtomar).
 
