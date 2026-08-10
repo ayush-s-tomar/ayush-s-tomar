@@ -224,6 +224,7 @@ Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [I Built an AI Agent That Thinks Before It Answers — And Loops Back When It Doesn&#39;t Know Enough](https://dev.to/ayushsinghtomar/i-built-an-ai-agent-that-thinks-before-it-answers-and-loops-back-when-it-doesnt-know-enough-39o)
 - [My LLM App Was Charging Rent-Controlled Tenants Penthouse Prices — So I Built a Router to Fix It](https://dev.to/ayushsinghtomar/my-llm-app-was-charging-rent-controlled-tenants-penthouse-prices-so-i-built-a-router-to-fix-it-38cl)
 - [Two Bugs That Almost Shipped in My Agentic RAG Assistant](https://dev.to/ayushsinghtomar/two-bugs-that-almost-shipped-in-my-agentic-rag-assistant-2fm0)
 - [I Got Tired of My Portfolio Looking Like a List of Links. So I Built an MCP Server for It.](https://dev.to/ayushsinghtomar/i-got-tired-of-my-portfolio-looking-like-a-list-of-links-so-i-built-an-mcp-server-for-it-440o)
