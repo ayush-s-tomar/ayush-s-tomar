@@ -29,13 +29,12 @@
 
 ## About Me
 
-Final-year B.Tech IT student building AI systems that **ship** — not tutorials, not localhost demos. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
+Final-year B.Tech IT student building AI systems that ship — full architecture, backend, frontend, and CI, deployed on Render / Vercel / Streamlit. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
 
 - 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027)
 - 🔭 Specializing in RAG pipelines, multi-agent systems & LLM infrastructure
-- 🚀 Every project below is live — architecture, backend, frontend, and CI, deployed on Render / Vercel / Streamlit
 - 🏆 NPTEL (IIT Kanpur) — Elite, Top 5%, Cloud Computing & Distributed Systems (90%)
-- 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating) · Open to full-time AI Developer roles
+- 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating)
 
 ---
 
@@ -50,6 +49,8 @@ Final-year B.Tech IT student building AI systems that **ship** — not tutorials
 
 Answers questions over 50-page PDFs in under 3 seconds, returning the exact source chunk and cosine similarity score behind every answer — and withholds an answer instead of hallucinating when the document doesn't cover it. Ships with an LLM-as-judge + keyword-validation eval pipeline wired into CI to catch retrieval regressions before deploy.
 
+<img src="doc/gifs/askmydocs-demo.gif" width="500" />
+
 `Next.js` `Supabase (pgvector)` `Cohere` `Groq`
 
 </td>
@@ -62,6 +63,8 @@ Answers questions over 50-page PDFs in under 3 seconds, returning the exact sour
 [Live Demo](https://salesagent-ai.streamlit.app/) · [Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 
 Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead (84/100), and Groq drafts a hyper-personalized cold email referencing actual company events. End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
+
+<img src="doc/gifs/salesagent-demo.gif" width="500" />
 
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
@@ -84,7 +87,20 @@ Not a chatbot — a research agent that decomposes a question into sub-questions
 <tr>
 <td>
 
-### 4. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
+### 4. [Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag) — Critique-and-Retry RAG Pipeline
+[Live Demo](https://rag-critic-loop.streamlit.app/)
+
+RAG pipeline that grades its own answers against the retrieved context — if a response isn't grounded, it reformulates the query and retries instead of returning an ungrounded answer.
+
+`LangGraph` `Chroma` `Groq` `Streamlit`
+
+</td>
+<td><sub>Self-critique loop, not a one-shot retrieval.</sub></td>
+</tr>
+<tr>
+<td>
+
+### 5. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
 [Try it](https://resume-screener-lora.streamlit.app/) · [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
 
 Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting. Published for reproducible, framework-agnostic inference.
@@ -94,34 +110,17 @@ Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.
 </td>
 <td><sub>Training work, not just inference — and published.</sub></td>
 </tr>
-<tr>
-<td>
-
-### 5. [Portfolio MCP Server](https://github.com/ayush-s-tomar/portfolio-mcp-server) — Protocol-Compliant Tool Server
-Local only (Claude Desktop)
-
-A working MCP server exposing 5 tools — project search, stack filtering, resume summary — so any MCP client queries this portfolio as live, structured, callable data instead of a static page. Implements real client-side permission gating and tool-call routing: a protocol-compliant server, not a wrapper around an API.
-
-`Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
-
-</td>
-<td><sub>Real protocol work, not an API wrapper.</sub></td>
-</tr>
 </table>
 
 ---
 
 <details>
-<summary><b>▶ More projects</b> (voice AI, automation agents, additional RAG systems & more)</summary>
+<summary><b>▶ More projects</b> (voice AI, automation agents, MCP server & more)</summary>
 <br>
 
 **[LLM Cost Router](https://github.com/ayush-s-tomar/llm-cost-router)** — [Live Demo](https://llm-cost-router.streamlit.app/)
 Heuristic query-complexity classifier that routes requests between a cheap and a far more expensive Groq model, cutting cost significantly on simple queries with no quality loss on complex ones. Live dashboard tracks real spend vs. a same-model baseline.
 `FastAPI` `Groq (Llama 3.1 8B / 3.3 70B)` `Streamlit`
-
-**[Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag)** — [Live Demo](https://rag-critic-loop.streamlit.app/)
-RAG pipeline that critiques its own answers — if a response isn't grounded in the retrieved documents, it reformulates the query and retries.
-`LangGraph` `Chroma` `Groq` `Streamlit`
 
 **[AI Interview Coach](https://github.com/ayush-s-tomar/ai-interview-coach)** — [Live Demo](https://mockinterview-ai.streamlit.app/)
 Real-time voice interview simulator — answers scored on relevance, clarity, technical accuracy, and confidence via Groq LLaMA 3.3, with a downloadable PDF report.
@@ -147,6 +146,18 @@ Speech-to-speech AI assistant with 99-language support and conversation memory. 
 AI resume screener that scores ATS compatibility, identifies gaps, and exports detailed PDF reports.
 `Python` `Flask` `Groq`
 
+**[StartupScope](https://github.com/ayush-s-tomar/startupscope)** — [Live Demo](https://startupscope-ai.streamlit.app/)
+Multi-agent CrewAI crew — Researcher, Analyst, and Writer agents collaborate to search the web and generate structured startup intelligence reports.
+`CrewAI` `Groq` `Streamlit`
+
+**[JobHunt](https://github.com/ayush-s-tomar/jobhunt)** — [Live Demo](https://jobhunt-ai.streamlit.app/)
+AI-powered Telegram job aggregator — scores every post and auto-applies via email or form-fill. Watches job channels 24/7 so you don't have to.
+`FastAPI` `PostgreSQL` `Groq`
+
+**[Portfolio MCP Server](https://github.com/ayush-s-tomar/portfolio-mcp-server)** — Local only (Claude Desktop)
+A working MCP server exposing 5 tools — project search, stack filtering, resume summary — so any MCP client queries this portfolio as live, structured, callable data instead of a static page. Implements real client-side permission gating and tool-call routing. Clone and run locally in ~2 minutes.
+`Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
+
 **[North Star Support Chatbot](https://github.com/ayush-s-tomar/northstar-chatbot)** — Local only
 AI-powered customer support chatbot for a North Star outdoor gear store, with full conversation handling and escalation logic.
 `React` `FastAPI` `Groq` `LLaMA`
@@ -154,16 +165,8 @@ AI-powered customer support chatbot for a North Star outdoor gear store, with fu
 </details>
 
 <details>
-<summary><b>▶ In progress / archived</b></summary>
+<summary><b>▶ Archived</b></summary>
 <br>
-
-**[StartupScope](https://github.com/ayush-s-tomar/startupscope)** — 🚧 *Demo temporarily offline, redeploying*
-Multi-agent CrewAI crew — Researcher, Analyst, and Writer agents collaborate to search the web and generate structured startup intelligence reports.
-`CrewAI` `Groq` `Streamlit`
-
-**[JobHunt](https://github.com/ayush-s-tomar/jobhunt)** — 🚧 *Demo temporarily offline, redeploying*
-AI-powered Telegram job aggregator — scores every post and auto-applies via email or form-fill. Watches job channels 24/7 so you don't have to.
-`FastAPI` `PostgreSQL` `Groq`
 
 **[n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack)** — *Archived, hosting suspended*
 No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
@@ -176,10 +179,7 @@ No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LL
 ## Experience & Achievements
 
 **Freelance AI Developer** — Self-Employed, Remote · *May 2026 – Present*
-Design and ship deployed AI systems end-to-end for clients — agentic workflows, RAG pipelines, LLM tooling.
-
-**AI Chatbot Developer — Upwork Talent Accelerator** · *Jun 2026*
-Delivered a chatbot contract end-to-end in 3 days. Client rated **5.0/5.0**.
+Design and ship deployed AI systems end-to-end for clients — agentic workflows, RAG pipelines, LLM tooling. Delivered a chatbot contract via Upwork Talent Accelerator end-to-end in 3 days (5.0/5.0 client rating).
 
 **Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur)
 Elite + Top 5% Topper, 90% (Jan–Mar 2026).
