@@ -8,6 +8,7 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://ayush-s-tomar.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
 [![Dev.to](https://img.shields.io/badge/Dev.to-Blog-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
 [![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
@@ -17,8 +18,8 @@
 
 <table>
 <tr>
-<td align="center"><b>9+</b><br/><sub>Deployed AI systems, solo</sub></td>
-<td align="center"><b>5.0★</b><br/><sub>Freelance client rating</sub></td>
+<td align="center"><b>5.0★</b><br/><sub>Freelance client rating (Upwork)</sub></td>
+<td align="center"><b>9.7/10</b><br/><sub>AskMyDocs eval score, CI-gated</sub></td>
 <td align="center"><b>1</b><br/><sub>Model published on Hugging Face</sub></td>
 </tr>
 </table>
@@ -32,13 +33,13 @@
 Final-year B.Tech IT student building AI systems that ship — full architecture, backend, frontend, and CI, deployed on Render / Vercel / Streamlit. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
 
 - 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027)
-- 🔭 Specializing in RAG pipelines, multi-agent systems & LLM infrastructure
+- 🔭 Specializing in RAG pipelines, multi-agent systems, LLM fine-tuning (LoRA/PEFT), and Model Context Protocol (MCP) tool serving
 - 🏆 NPTEL (IIT Kanpur) — Elite, Top 5%, Cloud Computing & Distributed Systems (90%)
 - 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating)
 
 ---
 
-## Top 5 Projects
+## Top Projects
 
 <table>
 <tr>
@@ -62,7 +63,7 @@ Answers questions over 50-page PDFs in under 3 seconds, returning the exact sour
 ### 2. [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — Autonomous B2B Sales Agent
 [Live Demo](https://salesagent-ai.streamlit.app/) · [Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 
-Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead (84/100), and Groq drafts a hyper-personalized cold email referencing actual company events. End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
+Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead, and Groq drafts a hyper-personalized cold email referencing actual company events (94/100 on the Satya Nadella demo run, referencing a real, live job posting). End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
 
 <img src="doc/gifs/salesagent-demo.gif" width="500" />
 
@@ -74,7 +75,20 @@ Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random F
 <tr>
 <td>
 
-### 3. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
+### 3. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
+[Try it](https://resume-screener-lora.streamlit.app/) · [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
+
+Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Benchmarked against zero-shot on the same 96-example eval set: verdict accuracy went from 17.7% to 88.5%, and mean score error dropped from 32.03 to 5.39 points — fine-tuning fixed judgment, not just output format. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting.
+
+`Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
+
+</td>
+<td><sub>Training work, not just inference — and published.</sub></td>
+</tr>
+<tr>
+<td>
+
+### 4. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
 [Live Demo](https://agentloop.streamlit.app/)
 
 Not a chatbot — a research agent that decomposes a question into sub-questions, searches the live web, reflects on gaps in its own notes, loops back, and delivers a fully cited report. Two-tier memory (short-term run state + long-term SQLite recall) streams live trace events to the UI as it reasons.
@@ -87,7 +101,7 @@ Not a chatbot — a research agent that decomposes a question into sub-questions
 <tr>
 <td>
 
-### 4. [Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag) — Critique-and-Retry RAG Pipeline
+### 5. [Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag) — Critique-and-Retry RAG Pipeline
 [Live Demo](https://rag-critic-loop.streamlit.app/)
 
 RAG pipeline that grades its own answers against the retrieved context — if a response isn't grounded, it reformulates the query and retries instead of returning an ungrounded answer.
@@ -96,19 +110,6 @@ RAG pipeline that grades its own answers against the retrieved context — if a 
 
 </td>
 <td><sub>Self-critique loop, not a one-shot retrieval.</sub></td>
-</tr>
-<tr>
-<td>
-
-### 5. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
-[Try it](https://resume-screener-lora.streamlit.app/) · [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
-
-Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting. Published for reproducible, framework-agnostic inference.
-
-`Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
-
-</td>
-<td><sub>Training work, not just inference — and published.</sub></td>
 </tr>
 </table>
 
@@ -154,8 +155,8 @@ Multi-agent CrewAI crew — Researcher, Analyst, and Writer agents collaborate t
 AI-powered Telegram job aggregator — scores every post and auto-applies via email or form-fill. Watches job channels 24/7 so you don't have to.
 `FastAPI` `PostgreSQL` `Groq`
 
-**[Portfolio MCP Server](https://github.com/ayush-s-tomar/portfolio-mcp-server)** — Local only (Claude Desktop)
-A working MCP server exposing 5 tools — project search, stack filtering, resume summary — so any MCP client queries this portfolio as live, structured, callable data instead of a static page. Implements real client-side permission gating and tool-call routing. Clone and run locally in ~2 minutes.
+**[Portfolio MCP Server](https://github.com/ayush-s-tomar/portfolio-mcp-server)** — Published on PyPI & the MCP registry
+A working MCP server exposing 5 tools — project search, stack filtering, resume summary — so any MCP client queries this portfolio as live, structured, callable data instead of a static page. `pip install portfolio-mcp-server` and it's live in any MCP client in under a minute.
 `Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
 
 **[North Star Support Chatbot](https://github.com/ayush-s-tomar/northstar-chatbot)** — Local only
