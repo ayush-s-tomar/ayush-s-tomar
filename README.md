@@ -1,226 +1,243 @@
-# North Star — AI Customer Support Chatbot
-![Python](https://img.shields.io/badge/python-3.11-blue)
-![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688)
-![React](https://img.shields.io/badge/frontend-React_18-61DAFB)
-![LLM](https://img.shields.io/badge/LLM-Groq_Llama_3.3_70B-orange)
-![CI](https://github.com/ayush-s-tomar/northstar-chatbot/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-not_deployed-lightgrey)
+<div align="center">
 
-> Paste a message. Get instant, AI-powered customer support — order tracking, returns, product recommendations, and live agent handoff, in seconds.
+![Ayush Singh Tomar — AI Engineer](doc/banner.svg)
 
-[Source](https://github.com/ayush-s-tomar/northstar-chatbot) | [LinkedIn](https://www.linkedin.com/in/ayush-s-tomar/)
+### AI Agent & RAG Developer — LangGraph · FastAPI · Live Deployed
 
-<p align="center">
-  <img src="docs/northstar-brand.png" alt="North Star Support Chatbot" width="700">
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Shipping+deployed+AI+systems%2C+end+to+end.;RAG+with+citations+%7C+Multi-agent+orchestration;LangGraph+%7C+FastAPI+%7C+Groq+%7C+MCP;Open+to+full-time+AI+Developer+roles." alt="Typing SVG" />
 
-### Demo GIF
+<br/>
 
-<p align="center">
-  <img src="docs/demo.gif" alt="North Star chat walkthrough gif" width="700">
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://ayush-s-tomar.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsinghtomar)
+[![Dev.to](https://img.shields.io/badge/Dev.to-Blog-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ayushsinghtomar)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ayushtomar)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushsinghtomar22@gmail.com)
 
-### Demo Screenshot
+<br/>
 
-<p align="center">
-  <img src="docs/demo-screenshot.png" alt="North Star chat UI screenshot" width="700">
-</p>
+<table>
+<tr>
+<td align="center"><b>5.0★</b><br/><sub>Freelance client rating (Upwork)</sub></td>
+<td align="center"><b>Live</b><br/><sub><a href="https://intellect-docs-ai.vercel.app/eval">AskMyDocs eval dashboard</a>, CI-gated</sub></td>
+<td align="center"><b>1</b><br/><sub>Model published on Hugging Face</sub></td>
+</tr>
+</table>
 
-### Demo Video
-
-https://github.com/user-attachments/assets/b418d176-05c9-449b-9ff2-4a1c6c555221
+</div>
 
 ---
 
-## 📚 Contents
+## About Me
 
-[The Problem](#the-problem) · [What It Does](#what-it-does) · [Demo](#demo) · [Tech Stack](#tech-stack) · [Conversation Flows](#conversation-flows-detail) · [Project Structure](#project-structure) · [Run Locally](#run-locally) · [Known Limitations](#known-limitations) · [Roadmap](#roadmap) · [License](#license)
+Final-year B.Tech IT student building AI systems that ship — full architecture, backend, frontend, and CI, deployed on Render / Vercel / Streamlit. My flagship work: **AskMyDocs**, a RAG document Q&A tool that cites its exact source and refuses to guess when the answer isn't there. And **SalesAgent**, a lead-scoring agent that turns a LinkedIn URL into a researched cold email in under a minute.
 
----
-
-## The Problem
-
-Outdoor gear shoppers need fast, accurate support — but human agents can't be online 24/7, and generic chatbots give robotic, useless responses.
-
-**North Star handles the full support loop, instantly.** Not a canned-response FAQ widget — a conversational AI agent that understands intent, routes intelligently, and responds like a knowledgeable team member.
+- 🎓 B.Tech IT, MITS Gwalior (Final Year, 2023–2027)
+- 🔭 Specializing in RAG pipelines, multi-agent systems, LLM fine-tuning (LoRA/PEFT), and Model Context Protocol (MCP) tool serving
+- 🏆 NPTEL (IIT Kanpur) — Elite, Top 5%, Cloud Computing & Distributed Systems (90%)
+- 💼 Freelance AI Developer on Upwork (5.0/5.0 client rating)
 
 ---
 
-## What It Does
+## Top Projects
 
-Type a message. The bot ("Stella") detects intent and routes to the right flow automatically:
+<table>
+<tr>
+<td width="70%">
 
-| Flow | What happens |
-|------|--------------|
-| Order Tracking | Asks for order number, returns live simulated status |
-| Returns & Exchanges | Explains 30-day policy, provides returns link |
-| Product Recommendations | Asks 1-2 clarifying questions, recommends the right gear category |
-| Human Handoff | Detects frustration or explicit request, transitions to Live Agent state |
-| Fallback | Catches anything unrecognized, offers clear options or escalation |
+### 1. [AskMyDocs](https://github.com/ayush-s-tomar/intellect-docs-ai) — RAG Document Q&A
+[Live Demo](https://intellect-docs-ai.vercel.app/)
 
-```
-User message -> [Intent Detection] -> [Flow Router] -> [Groq LLM Response]
-                                          |
-              Order / Returns / Recs / Handoff / Fallback
-```
+Answers questions over 50-page PDFs in under 3 seconds, returning the exact source chunk and cosine similarity score behind every answer — and withholds an answer instead of hallucinating when the document doesn't cover it. Ships with an LLM-as-judge + keyword-validation eval pipeline wired into CI to catch retrieval regressions before deploy. Current eval numbers are always on the [live dashboard](https://intellect-docs-ai.vercel.app/eval), not hardcoded here.
 
----
+<img src="doc/gifs/askmydocs-demo.gif" width="500" />
 
-## Demo
+`Next.js` `Supabase (pgvector)` `Cohere` `Groq`
 
-**Order Tracking:**
+</td>
+<td width="30%"><sub>CI-gated retrieval eval, not just a demo.</sub></td>
+</tr>
+<tr>
+<td>
 
-```
-User:   Where is my order?
-Stella: Sure! What's your order number?
-User:   #111
-Stella: Your order is on its way and arriving tomorrow! Is there anything else I can help you with?
-```
+### 2. [SalesAgent](https://github.com/ayush-s-tomar/salesagent) — Autonomous B2B Sales Agent
+[Live Demo](https://salesagent-ai.streamlit.app/) · [Writeup](https://dev.to/ayushsinghtomar/i-got-tired-of-writing-cold-emails-so-i-built-an-ai-agent-to-do-it-for-me-2m4h)
 
-**Human Handoff:**
+Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead, and Groq drafts a hyper-personalized cold email referencing actual company events (94/100 on the Satya Nadella demo run, referencing a real, live job posting). End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
 
-```
-User:   This is ridiculous, I want a real person
-Stella: I'm sorry you're frustrated. Let me connect you with a live agent right away...
-        [Live Agent transfer initiated]
-```
+<img src="doc/gifs/salesagent-demo.gif" width="500" />
 
-**Fallback:**
+`LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
-```
-User:   asdfghjkl
-Stella: I didn't quite catch that! I can help you with order tracking, returns,
-        product recommendations, or connect you with our team.
-```
+</td>
+<td><sub>Full agentic loop + ML scoring + eval harness.</sub></td>
+</tr>
+<tr>
+<td>
 
-### Mock Order Data
+### 3. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
+[Try it](https://resume-screener-lora.streamlit.app/) · [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
 
-| Order # | Status | Detail |
-|---------|--------|--------|
-| `#111` | Shipped | Arriving tomorrow |
-| `#222` | Processing | Ships within 24 hours |
-| `#333` | Delivered | Bot asks if issue needs resolving |
-| Any other | Not found | Prompts user to check the number |
+Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Benchmarked against zero-shot on the same 96-example eval set: verdict accuracy went from 17.7% to 88.5%, and mean score error dropped from 32.03 to 5.39 points — fine-tuning fixed judgment, not just output format. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting.
 
----
+`Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
 
-## Tech Stack
+</td>
+<td><sub>Training work, not just inference — and published.</sub></td>
+</tr>
+<tr>
+<td>
 
-| Layer | Technology |
-|-------|-----------|
-| Backend | FastAPI (Python) |
-| AI / NLU | Groq API — Llama 3.3 70B |
-| Frontend | React 18 |
-| Styling | CSS-in-JS (zero dependencies) |
-| API Key | Groq free tier — no cost, fast inference |
-| CI | GitHub Actions (lint, format, import check, build) |
+### 4. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
+[Live Demo](https://agentloop.streamlit.app/)
 
----
+Not a chatbot — a research agent that decomposes a question into sub-questions, searches the live web, reflects on gaps in its own notes, loops back, and delivers a fully cited report. Two-tier memory (short-term run state + long-term SQLite recall) streams live trace events to the UI as it reasons.
 
-## Conversation Flows (Detail)
+`FastAPI` `LangGraph` `Groq` `SQLite` `Tavily`
 
-**Intent recognition** handles natural variations automatically:
+</td>
+<td><sub>Plan → act → reflect → loop, with visible reasoning traces.</sub></td>
+</tr>
+<tr>
+<td>
 
-- "Where is my order?" / "Track my package" / "Order status" -> Order Tracking
-- "I want to return this" / "Exchange policy" / "Send it back" -> Returns
-- "What should I buy?" / "Gear recommendations" / "Help me find a tent" -> Product Recs
-- "Speak to a human" / "This is frustrating" / "Real person" -> Human Handoff
+### 5. [Self-Healing RAG](https://github.com/ayush-s-tomar/self-healing-rag) — Critique-and-Retry RAG Pipeline
+[Live Demo](https://rag-critic-loop.streamlit.app/)
 
-**Shipping policy (built-in):** Standard 3-5 business days, Expedited 1-2 business days.
+RAG pipeline that grades its own answers against the retrieved context — if a response isn't grounded, it reformulates the query and retries instead of returning an ungrounded answer.
 
-**Return policy (built-in):** 30-day returns, unused items, original packaging required.
+`LangGraph` `Chroma` `Groq` `Streamlit`
+
+</td>
+<td><sub>Self-critique loop, not a one-shot retrieval.</sub></td>
+</tr>
+</table>
 
 ---
 
-## Project Structure
+<details>
+<summary><b>▶ More projects</b> (voice AI, automation agents, MCP server & more)</summary>
+<br>
 
-```
-northstar-chatbot/
-├── .github/
-│   └── workflows/
-│       └── ci.yml             # Lint + format + import + build checks
-├── backend/
-│   ├── main.py                # FastAPI app - intent detection + all 5 chat flows
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── App.js             # React chat UI - Stella persona, quick-reply buttons,
-│   │   │                       # order cards, animations
-│   │   └── index.js
-│   └── public/
-│       └── index.html
-├── docs/
-│   ├── northstar-brand.png    # Brand/outro card
-│   ├── demo.gif                # Short walkthrough gif
-│   └── demo-screenshot.png    # Static UI screenshot
-├── .gitignore
-├── LICENSE
-└── README.md
-```
+**[LLM Cost Router](https://github.com/ayush-s-tomar/llm-cost-router)** — [Live Demo](https://llm-cost-router.streamlit.app/)
+Heuristic query-complexity classifier that routes requests between a cheap and a far more expensive Groq model, cutting cost significantly on simple queries with no quality loss on complex ones. Live dashboard tracks real spend vs. a same-model baseline.
+`FastAPI` `Groq (Llama 3.1 8B / 3.3 70B)` `Streamlit`
 
----
+**[AI Interview Coach](https://github.com/ayush-s-tomar/ai-interview-coach)** — [Live Demo](https://mockinterview-ai.streamlit.app/)
+Real-time voice interview simulator — answers scored on relevance, clarity, technical accuracy, and confidence via Groq LLaMA 3.3, with a downloadable PDF report.
+`Streamlit` `Faster-Whisper` `Groq` `PDF Generation`
 
-## Run Locally
+**[Agentic RAG Research Assistant](https://github.com/ayush-s-tomar/agentic-rag-research-assistant)** — [Live Demo](https://agentic-rag-groq.streamlit.app/) | [API Docs](https://agentic-rag-research-assistant-jjch.onrender.com/docs)
+LangGraph tool-routing RAG system — retrieves grounded answers from uploaded PDFs via Chroma, declines out-of-scope questions, and routes queries between a cheap and large model based on complexity.
+`LangGraph` `FastAPI` `Streamlit` `Chroma` `Groq`
 
-```bash
-# 1. Clone
-git clone https://github.com/ayush-s-tomar/northstar-chatbot.git
-cd northstar-chatbot
+**[AI Data Analyst Agent](https://github.com/ayush-s-tomar/ai-data-analyst)** — [Live Demo](https://askthedata-ai.streamlit.app/)
+Upload CSV, Excel, PDF, Parquet, XML, SQLite, ODS, or Feather files — ask questions in plain English, get instant charts and insights.
+`Streamlit` `Groq` `pandas`
 
-# 2. Backend
-cd backend
-py -3.11 -m pip install -r requirements.txt
-cp .env.example .env
-# Paste your Groq API key into .env - free key at https://console.groq.com
-py -3.11 -m uvicorn main:app --reload --port 8000
-# -> http://localhost:8000/docs
+**[Email Agent](https://github.com/ayush-s-tomar/Email-agent)** — [Live Demo](https://ai-inbox-agent.streamlit.app/)
+AI Gmail agent that classifies emails and drafts context-aware replies you can approve or edit before sending.
+`IMAP` `SMTP` `Groq` `LLaMA 3.3` `Streamlit`
 
-# 3. Frontend (new terminal)
-cd ../frontend
-npm install
-npm start
-# -> http://localhost:3000
-```
+**[ARIA – Voice AI Assistant](https://github.com/ayush-s-tomar/aria-voice-assistant)** — [Live Demo](https://aria-bot.streamlit.app/)
+Speech-to-speech AI assistant with 99-language support and conversation memory. Speak in any language — ARIA transcribes, thinks, and talks back.
+`FastAPI` `Faster-Whisper` `Groq` `LLaMA` `gTTS`
 
-**Environment variables** (`backend/.env`):
+**[ResumeIQ](https://github.com/ayush-s-tomar/ResumeIQ)** — [Live Demo](https://resume-iq-screener.streamlit.app/)
+AI resume screener that scores ATS compatibility, identifies gaps, and exports detailed PDF reports.
+`Python` `Flask` `Groq`
 
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
+**[StartupScope](https://github.com/ayush-s-tomar/startupscope)** — [Live Demo](https://startupscope-ai.streamlit.app/)
+Multi-agent CrewAI crew — Researcher, Analyst, and Writer agents collaborate to search the web and generate structured startup intelligence reports.
+`CrewAI` `Groq` `Streamlit`
 
----
+**[JobHunt](https://github.com/ayush-s-tomar/jobhunt)** — [Live Demo](https://jobhunt-ai.streamlit.app/)
+AI-powered Telegram job aggregator — scores every post and auto-applies via email or form-fill. Watches job channels 24/7 so you don't have to.
+`FastAPI` `PostgreSQL` `Groq`
 
-## Known Limitations
+**[Portfolio MCP Server](https://github.com/ayush-s-tomar/portfolio-mcp-server)** — Published on PyPI & the MCP registry
+A working MCP server exposing 5 tools — project search, stack filtering, resume summary — so any MCP client queries this portfolio as live, structured, callable data instead of a static page. `pip install portfolio-mcp-server` and it's live in any MCP client in under a minute.
+`Python` `MCP (FastMCP SDK)` `stdio transport` `Claude Desktop`
 
-- **Not deployed.** This is currently a local-run portfolio project - no live demo link. Order data, returns, and recommendations are all mocked/simulated rather than backed by a real store or CRM.
-- **No persistent conversation memory** - each session starts fresh; the bot doesn't recall prior conversations or link them to a real customer account.
-- **No authentication layer** - single-session demo, not multi-tenant.
-- **Order lookup is a fixed mock table** (`#111`, `#222`, `#333`) rather than a real order management system.
+**[North Star Support Chatbot](https://github.com/ayush-s-tomar/northstar-chatbot)** — Local only
+AI-powered customer support chatbot for a North Star outdoor gear store, with full conversation handling and escalation logic.
+`React` `FastAPI` `Groq` `LLaMA`
+
+</details>
+
+<details>
+<summary><b>▶ Archived</b></summary>
+<br>
+
+**[n8n Email → Slack](https://github.com/ayush-s-tomar/n8n-email-slack)** — *Archived, hosting suspended*
+No-code AI automation pipeline: fetches unread Gmail → summarizes with Groq LLaMA → detects priority → pushes digest to Slack.
+`n8n` `Groq` `Gmail` `Slack`
+
+</details>
 
 ---
 
-## Roadmap
+## Experience & Achievements
 
-- [ ] **Deploy** backend to Render and frontend to Vercel/Streamlit for a live demo link
-- [ ] **User authentication** - link order numbers to real accounts
-- [ ] **WebSocket streaming** - token-by-token response like ChatGPT
-- [ ] **Conversation memory** - remember context across sessions
-- [ ] **Analytics dashboard** - track which flows are hit most, drop-off points
-- [ ] **Multi-language support** - serve North American + international customers
+**Freelance AI Developer** — Self-Employed, Remote · *May 2026 – Present*
+Design and ship deployed AI systems end-to-end for clients — agentic workflows, RAG pipelines, LLM tooling. Delivered a chatbot contract via Upwork Talent Accelerator end-to-end in 3 days (5.0/5.0 client rating).
 
----
-
-## License
-
-MIT - see [LICENSE](LICENSE).
-
-## Author
-
-**Ayush Singh Tomar**
-[GitHub](https://github.com/ayush-s-tomar) · [LinkedIn](https://www.linkedin.com/in/ayushsinghtomar) · [Portfolio](https://ayush-s-tomar.vercel.app)
+**Cloud Computing and Distributed Systems** — NPTEL (IIT Kanpur)
+Elite + Top 5% Topper, 90% (Jan–Mar 2026).
 
 ---
 
-*Part of my AI developer portfolio — a conversational agent that routes on real intent and hands off honestly when it can't help, not a static FAQ widget. See also: [SalesAgent](https://github.com/ayush-s-tomar/salesagent), an autonomous B2B lead research and outreach agent.*
+## Stack
+
+**Core — used across most projects**
+`Python` `LangGraph` `FastAPI` `Groq` `LLaMA 3.3` `Streamlit` `Git`
+
+**AI / LLM**
+`LangChain` `CrewAI` `MCP` `LoRA/PEFT` `PyTorch` `Hugging Face Transformers` `Whisper` `Prompt Engineering` `scikit-learn`
+
+**Frontend & Data**
+`React` `Next.js` `JavaScript/TypeScript` `SQL` `Supabase (pgvector)` `PostgreSQL` `Chroma` `pandas`
+
+**Infra & Deployment**
+`Docker` `Vercel` `Render` `Flask`
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-s-tomar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-s-tomar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=ayush-s-tomar&theme=tokyonight&hide_border=true&background=0D1117)
+
+</div>
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/ayush-s-tomar/ayush-s-tomar/output/github-snake-dark.svg)
+
+</div>
+
+---
+
+## Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [I built a multi-agent AI system that researches any startup in under 90 seconds](https://dev.to/ayushsinghtomar/i-built-a-multi-agent-ai-system-that-researches-any-startup-in-under-90-seconds-iai)
+- [I Built an AI Agent That Thinks Before It Answers — And Loops Back When It Doesn&#39;t Know Enough](https://dev.to/ayushsinghtomar/i-built-an-ai-agent-that-thinks-before-it-answers-and-loops-back-when-it-doesnt-know-enough-39o)
+- [My LLM App Was Charging Rent-Controlled Tenants Penthouse Prices — So I Built a Router to Fix It](https://dev.to/ayushsinghtomar/my-llm-app-was-charging-rent-controlled-tenants-penthouse-prices-so-i-built-a-router-to-fix-it-38cl)
+- [Two Bugs That Almost Shipped in My Agentic RAG Assistant](https://dev.to/ayushsinghtomar/two-bugs-that-almost-shipped-in-my-agentic-rag-assistant-2fm0)
+- [I Got Tired of My Portfolio Looking Like a List of Links. So I Built an MCP Server for It.](https://dev.to/ayushsinghtomar/i-got-tired-of-my-portfolio-looking-like-a-list-of-links-so-i-built-an-mcp-server-for-it-440o)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+<div align="center">
+
+### Let's Build Something
+
+Have a problem worth an agent, a RAG pipeline, or an LLM integration? Reach out on [LinkedIn](https://linkedin.com/in/ayushsinghtomar), read the build logs on [Dev.to](https://dev.to/ayushsinghtomar), or [start a contract on Upwork](https://www.upwork.com/freelancers/ayushtomar).
+
+</div>
