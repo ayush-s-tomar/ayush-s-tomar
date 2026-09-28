@@ -78,7 +78,7 @@ Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random F
 ### 3. [LoRA Fine-Tuned Resume Screener](https://github.com/ayush-s-tomar/resume-screener-lora) — Published on Hugging Face
 [Try it](https://resume-screener-lora.streamlit.app/) · [Hugging Face](https://huggingface.co/Kus-hal/resume-screener-lora)
 
-Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Benchmarked against zero-shot on the same 96-example eval set: verdict accuracy went from 17.7% to 88.5%, and mean score error dropped from 32.03 to 5.39 points — fine-tuning fixed judgment, not just output format. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting.
+Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.5B so structured JSON resume-fit verdicts are the model's default output — not something coaxed out with prompting. Benchmarked against zero-shot on the same 96-example eval set: verdict accuracy went from 17.7% to 88.5%, and mean score error dropped from 32.03 to 5.39 points — fine-tuning fixed judgment, not just output format. Validation loss tracked training loss across 3 epochs with no divergence, confirming no overfitting. The hosted demo serves scoring through a Groq-hosted backend for free-tier hosting reasons; the trained adapter itself runs locally with no API key (details in the repo's Deployment Note).
 
 `Qwen2.5-0.5B` `LoRA (PEFT)` `PyTorch` `Hugging Face Transformers`
 
@@ -89,7 +89,7 @@ Fine-tuned a LoRA adapter (r=16, just 0.44% of parameters trained) on Qwen2.5-0.
 <td>
 
 ### 4. [AgentLoop](https://github.com/ayush-s-tomar/agentloop) — Multi-Step Research Agent
-[Live Demo](https://agentloop.streamlit.app/)
+[Live Demo](https://agentloop.onrender.com/)
 
 Not a chatbot — a research agent that decomposes a question into sub-questions, searches the live web, reflects on gaps in its own notes, loops back, and delivers a fully cited report. Two-tier memory (short-term run state + long-term SQLite recall) streams live trace events to the UI as it reasons.
 
