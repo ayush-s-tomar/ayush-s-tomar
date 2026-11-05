@@ -50,7 +50,7 @@ Final-year B.Tech IT student building AI systems that ship — full architecture
 
 Answers questions over 50-page PDFs in under 3 seconds, returning the exact source chunk and cosine similarity score behind every answer — and withholds an answer instead of hallucinating when the document doesn't cover it. Ships with an LLM-as-judge + keyword-validation eval pipeline wired into CI to catch retrieval regressions before deploy. Current eval numbers are always on the [live dashboard](https://intellect-docs-ai.vercel.app/eval), not hardcoded here.
 
-<img src="doc/gifs/askmydocs-demo.gif" width="500" />
+<img src="doc/gifs/askmydocs-demo.gif" width="500" alt="AskMyDocs demo: asking a question over a PDF and getting a cited answer" />
 
 `Next.js` `Supabase (pgvector)` `Cohere` `Groq`
 
@@ -65,7 +65,7 @@ Answers questions over 50-page PDFs in under 3 seconds, returning the exact sour
 
 Paste a LinkedIn URL — a LangGraph research node pulls real signal, a Random Forest model scores the lead, and Groq drafts a hyper-personalized cold email referencing actual company events (94/100 on the Satya Nadella demo run, referencing a real, live job posting). End to end in under 45 seconds. A self-built eval harness caught two production bugs before they shipped — uniform lead scores and a missing sender identity in generated emails.
 
-<img src="doc/gifs/salesagent-demo.gif" width="500" />
+<img src="doc/gifs/salesagent-demo.gif" width="500" alt="SalesAgent demo: LinkedIn URL in, researched cold email out" />
 
 `LangGraph` `FastAPI` `React` `scikit-learn` `Groq` `Tavily`
 
